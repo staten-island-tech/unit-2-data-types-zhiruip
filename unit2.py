@@ -14,10 +14,10 @@
 #print(y)
 #print(z
 
-def ask(x):
-    x = input("enter a sentence: ")
-    y=x.split( )
-    print(f"the total numbers in the input is {len(y)}")
+#def ask(x):
+   # x = input("enter a sentence: ")
+   # y=x.split( )
+   # print(f"the total numbers in the input is {len(y)}")
     
 
-ask(1)
+#ask(1)
