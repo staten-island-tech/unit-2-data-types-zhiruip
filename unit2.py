@@ -29,16 +29,48 @@
         #print(f"{number} is odd")
 #oddeven(1)
 
-def tip_calc(y):
-    tip_percent = input("enter tip :) : ")
-    if tip_percent = "0"
 
+ 
+#global_bill = float(input("How much was your bill?: "))  # Global variable
 
-def tipping_service(x):
-    bill= input("how much was your bill?:")
-    service = input("was the service, bad, okay, good, or great?: ")
-    if service == "bad":
-        print("sorry! if it was bad, you don't need to tip!")
-        print("would you like to tip, 0%, 15%, 20%, or 25%? ")
+#def tip_calc():
+    #global global_bill  # Access the global variable
+    #tip_percent = input("Enter tip (e.g., 0%, 15%, 20%, 25%): ")
+    
+    #if tip_percent == "0%":
+        #bill = global_bill * 1  # Apply the tip percentage
 
-      
+   # if tip_percent == "15%":
+        #bill = global_bill * 1.15  # Apply the tip percentage
+    
+    #if tip_percent == "20%":
+        #bill = global_bill * 1.20  # Apply the tip percentage
+
+    #if tip_percent == "25%":
+        #bill = global_bill * 1.25  # Apply the tip percentage
+    
+    
+    #print(f"Your meal costs {bill}")
+
+#def tipping_service():
+    #global global_bill  # Access the global variable
+    #service = input("Was the service bad, okay, good, or great?: ")
+    
+    #if service == "bad":
+        #print("Sorry! If it was bad, you don't need to tip!")
+        #print("Would you like to tip 0%, 15%, 20%, or 25%?")
+    
+    #if service == "okay":
+        #print("Alright, I recommend you tip 15%")
+        #print("Would you like to tip 0%, 15%, 20%, or 25%?")
+
+    #if service == "good":
+        #print("Thanks, I recommend you tip 20%.")
+        #print("Would you like to tip 0%, 15%, 20%, or 25%?")
+
+    #if service == "great":
+       # print("Thank you! I recommend tipping 25% ;D !!")
+        #print("Would you like to tip 0%, 15%, 20%, or 25%?")
+    
+    #tip_calc()  # Call the tip calculation function
+#tipping_service()
