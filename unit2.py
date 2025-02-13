@@ -74,3 +74,11 @@
     
     #tip_calc()  # Call the tip calculation function
 #tipping_service()
+
+def all_factors():
+    number=int(input("whats your number"))
+    for i in range(1, number + 1):
+        if number % i == 0:
+            print(f"the factors for {number} is {i}")
+    
+all_factors()
