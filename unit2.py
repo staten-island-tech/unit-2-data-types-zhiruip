@@ -75,10 +75,21 @@
     #tip_calc()  # Call the tip calculation function
 #tipping_service()
 
-def all_factors():
-    number=int(input("whats your number"))
-    for i in range(1, number + 1):
-        if number % i == 0:
-            print(f"the factors for {number} is {i}")
+#def all_factors():
+    #number=int(input("whats your number"))
+    #for i in range(1, number + 1):
+        #if number % i == 0:
+            #print(f"the factors for {number} is {i}")
     
-all_factors()
+#all_factors()
+
+def gcf():
+    alfred= []
+    number1= int(input("whats your first number: "))
+    number2= int(input("whats your second number: "))
+    for i in range(1, (number1, number2) + 1):
+        if number1 % i == 0 and number2 % 1 == 0:
+            alfred.append(i)
+            return alfred[0]
+    
+gcf()
