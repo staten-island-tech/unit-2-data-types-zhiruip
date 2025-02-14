@@ -83,13 +83,10 @@
     
 #all_factors()
 
-def gcf():
+def gcf(x, y):
     alfred= []
-    number1= int(input("whats your first number: "))
-    number2= int(input("whats your second number: "))
-    for i in range(1, (number1, number2) + 1):
-        if number1 % i == 0 and number2 % 1 == 0:
+    for i in range(min(x, y) + 1, 0, -1):
+        if x % i == 0 and y % 1 == 0:
             alfred.append(i)
             return alfred[0]
-    
-gcf()
+print(gcf(400,100))
