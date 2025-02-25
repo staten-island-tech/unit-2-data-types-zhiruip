@@ -90,3 +90,4 @@ def gcf(x, y):
             alfred.append(i)
             return alfred[0]
 print(gcf(400,100))
+
