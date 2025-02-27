@@ -1,20 +1,17 @@
-import random
+import random  # Make sure to import random module
 
+def gamble(min_value, max_value):
+    return random.randint(min_value, max_value)
 
-def gamble():
-    global guess
-    guess = 0
-    random_number = random.randint(1, 11)
-    guess = int("What do you guess: ")
-    while guess != random_number:
-        if guess == random_number:
-            print(f"correct! it was {random_number}")
-        else:
-            if guess > random_number:
-                input("wrong! it is less, guess again: ")
-            else:
-                input("wrong! it is more, guess again: ")
+random_number = gamble(1, 11)
 
+while True:
+    x = int(input("Guess a number between 1 and 11: "))
+    if x == random_number:
+        print("correct") 
+    break
+    elif x > random_number:
+           print("more")
+    else:
+  print("less")
 
-
-gamble()
