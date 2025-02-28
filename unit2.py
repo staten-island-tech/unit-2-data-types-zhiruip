@@ -88,6 +88,5 @@ def gcf(x, y):
     for i in range(min(x, y) + 1, 0, -1):
         if x % i == 0 and y % 1 == 0:
             alfred.append(i)
-            return alfred[0]
-print(gcf(400,100))
-
+    print(alfred)
+print(gcf(250,100))
